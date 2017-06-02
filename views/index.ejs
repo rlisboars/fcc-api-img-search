@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FCC-API -  Image Search Abstraction Layer</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <h2>FCC - API Projects - Image Search Abstraction Layer</h2>
+            <h3>User Stories:</h3>
+            <ul>
+                <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+                <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+                <li>I can get a list of the most recently submitted search strings.</li>
+            </ul>
+            <h3>Example Usage:</h3>
+            <ul>
+                <li><a href="<%= url %>/api/imgsearch/funny%20cats?offset=10" target="_blank"><%= url %>/api/imgsearch/funny%20cats?offset=10</a></li>
+                <li><a href="<%= url %>/api/latest" target="_blank"><%= url %>/api/latest</a></li>
+            </ul>
+            <footer>by <a href="https://github.com/rlisboars/" target="_blank">rlisboars</a></footer>
+        </div>
+        
+    </body>
+</html>

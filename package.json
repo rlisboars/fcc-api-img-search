@@ -1,0 +1,26 @@
+{
+  "name": "fcc-api-img-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlisboars/fcc-api-img-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlisboars/fcc-api-img-search/issues"
+  },
+  "homepage": "https://github.com/rlisboars/fcc-api-img-search#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27",
+    "request": "^2.81.0"
+  }
+}
